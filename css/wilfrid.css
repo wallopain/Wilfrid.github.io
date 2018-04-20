@@ -9,15 +9,16 @@ body{
     color: white;
 }
 .logo{
-    font-style: italic;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font-style: normal;
+    font-family:  M, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    line-height: 37px;
+    font-size: 25px;
+    padding-left: 150px;
 }
 .headerlinks{
     font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 20px;
+    font-family: M, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 18px;
     list-style-type: none;
 }
 .headerlinks a{
@@ -31,53 +32,46 @@ body{
 
 /* Header section 2 */
 .header2{
-    background-image: url('../img/background.png');
+    /* background-image: url('../img/background.png'); */
+    background-color: #000000;
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
-    font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 40px;
-    margin-top: -20px;
-    
+    color: #ffffff;
+    margin-top: -20px;  
 }
 .intro{
-    padding-top: 200px;
+    padding-top: 250px;
+    font-style: normal;
+    font-family:  M, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    line-height: 35px;
+    font-size: 20px;
 }
+
 #intro2{
     font-size: 30px;
+    font-weight: bold;
 }
 
 
 /* ABOUT PAGE */
-.about{
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-.top{
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    text-decoration-line: underline;
-    text-decoration-style: double;
-    text-decoration-color: blue;
-}
-.ttop{
-    padding-top: 50px;
-}
 .abt{
     padding-top: 50px;
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 37px;
     color: #868e96;
+}
+.about{
+    padding-top: 50px;
 }
 .cv a:hover {
     text-decoration-line: none;
+    font-size: 16px;
+    line-height: 25px;
     color: white;
     background-color: blue;
     transition: all 0.5s ease;
@@ -86,39 +80,40 @@ body{
     color: blue;
     background-color: white;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 40px;
+    font-size: 16px;
+    line-height: 25px;
     font-weight: bold;
     border-radius: 20px;
-    box-shadow: 3px 0 7px 0 rgba(0, 0, 0, 0.205);
-    margin-left: 200px;
+    box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.205);
+    margin-left: 150px;
     margin-top: 70px;
 }
 
 /* WORKS PAGE */
 .works{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .Whead{
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 24px;
-    text-decoration-line: underline;
-    text-decoration-style: double;
-    text-decoration-color: purple;
 }
 .wwrk{
-    padding-top: 150px;
+    padding-top: 70px;
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 37px;
     color: #868e96;
 }
 .proj a:hover {
     text-decoration-line: none;
     color: white;
     background-color: purple;
+    font-size: 16px;
+    line-height: 25px;
     transition: all 0.5s ease;
 }
 .proj a{
@@ -126,6 +121,8 @@ body{
     background-color: white;
     display: inline-block;
     padding: 10px 25px;
+    font-size: 16px;
+    line-height: 25px;
     font-weight: bold;
     border-radius: 20px;
     box-shadow: 3px 0 7px 0 rgba(0, 0, 0, 0.205);
@@ -135,18 +132,19 @@ body{
 .work1 img{
     box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.205);
 }
+
 .rrow{
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 100px;
 }
 .wwrrk{
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 37px;
     color: #868e96;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .wbottom a{
     font-style: normal;
@@ -156,11 +154,18 @@ body{
     line-height: 25px;
     color: #868e96;
     padding-left: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
     color: blue;
 }
 .wbottom a:hover{
     text-decoration-line: none;
+}
+.New{
+    color: #000000;
+    font-size: 35px;
+}
+.nne{
+    font-size: 30px;
 }
 
 /* CONTACT SECTION */
@@ -179,8 +184,35 @@ body{
     padding-left: 120px;
 }
 
+/* ANIMATIONS */
+.intro{
+    animation-duration: 2s;
+}
+
+
+
 /* Responsive codes */
 @media only screen and (max-width: 768px) {
+    .Whead{
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 0px;    
+    }
+    .New{
+        color: #000000;
+        font-size: 25px;
+        font-family: M, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        margin-top: -20px;
+        padding-left: 20%;
+    }
+    .logo{
+        font-style: normal;
+        font-family:  M, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        line-height: 37px;
+        font-size: 25px;
+        padding-left: 0px;
+        margin-top: -10px;
+    }
     .header2{
         background-image: url('../img/background2.png');
         height: 350px;
@@ -235,7 +267,7 @@ body{
     }
     .wwrk{
         padding-top: 0px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .proj a{
         color: purple;
@@ -246,10 +278,11 @@ body{
         border-radius: 20px;
         box-shadow: 3px 0 7px 0 rgba(0, 0, 0, 0.205);
         margin-left: 80px;
-        margin-top: 50px;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
     .rrow{
-        padding-top: 100px;
+        padding-top: 0px;
         padding-bottom: 100px;
     }
     .wwrrk{
@@ -265,12 +298,15 @@ body{
     .text{
         color: white;
     }
+    .nnw{
+        padding-left: 80px;
+        font-size: 30px;
+    }
     
 }
-  @media only screen and (min-width: 769px){
+  /* @media only screen and (min-width: 769px){
     .projects {
         position: relative;
-        /* width: 50%; */
       }
       
       .Image {
@@ -305,10 +341,10 @@ body{
       }
       
       .projects:hover .overlay {
-        opacity: 1;
+        opacity: 0.5;
       }
       .projects:hover .overlay1 {
-        opacity: 1;
+        opacity: 0.5;
       }
       
       .text {
@@ -332,4 +368,4 @@ body{
         text-align: center;
       }
 
-  }
+  } */
