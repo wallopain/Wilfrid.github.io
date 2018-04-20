@@ -1,13 +1,9 @@
 $(document).ready(function() {
 
     $(".intro").addClass("animated bounceInUp");
-    $(".fresh").waypoint(function(){
-     
-        $(".fresh").addClass("animated swing");
-    },
-    {
-     offset: '40%'
-    });
+    
+
+
     $(".works").waypoint(function(){
      
         $(".works").addClass("animated fadeInUp");
@@ -18,3 +14,10 @@ $(document).ready(function() {
     
 
 });
+
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".projects"), {
+		max: 25,
+		speed: 400
+	});
+</script>
